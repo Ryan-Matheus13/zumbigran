@@ -1,0 +1,64 @@
+.container {
+  padding: 1.25rem;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.row-dashboard {
+  /* min-height: 20rem; */
+  /* margin-bottom: 1.25rem; */
+  display: flex;
+  gap: 1.25rem;
+}
+
+.content-header {
+  display: flex;
+}
+
+.content-header h1 {
+  font-size: 2rem;
+  flex: 1;
+}
+
+.content-container {
+  background-color: #3d3d3d;
+  border-radius: 0.9rem;
+  display: flex;
+  flex-direction: column;
+  padding: 0.62rem 0.62rem;;
+}
+
+.notification-button {
+  background-color: #3d3d3d;
+  border-radius: 0.62rem;
+  padding: 0.62rem 0.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#infectados {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  margin-left: -1.2rem;
+}
+
+.card-header {
+    padding-bottom: 0.62rem;
+}
+
+.card-header h2 {
+    margin-left: 1.3rem;
+}
+
+.apexcharts-gridline {
+    stroke: transparent !important;
+}
+
+#infectados .apexcharts-yaxis, .apexcharts-yaxis-texts-g {
+  display: none !important;
+}

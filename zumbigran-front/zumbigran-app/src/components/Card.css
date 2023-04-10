@@ -1,6 +1,7 @@
 .card-container {
     background-color: white;
     max-width: 30rem;
+    min-height: 23.75rem;
     padding: 1.5rem;
     border-radius: 0.62rem;
     display: flex;
@@ -11,6 +12,7 @@
 .card-content {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .logo-container {
