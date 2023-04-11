@@ -24,7 +24,7 @@ export default function Home() {
 
   useEffect(() => {
     setTimeout(() => {
-      setLoading(false)
+      setLoading(false);
     }, 1500);
   }, []);
 
@@ -100,6 +100,27 @@ export default function Home() {
                       label={"Email"}
                       type={"email"}
                     />
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: 20,
+                      }}
+                    >
+                      <Input
+                        value={password}
+                        onchange={setPassword}
+                        label={"Nome"}
+                        type={"text"}
+                        style={{ flex: 1 }}
+                      />
+                      <Input
+                        value={passwordConfirm}
+                        onchange={setPasswordConfirm}
+                        label={"Sobrenome"}
+                        type={"text"}
+                        style={{ flex: 1 }}
+                      />
+                    </div>
                     <Input
                       onchange={setUser}
                       value={user}

@@ -52,7 +52,8 @@
 }
 
 .card-header h2 {
-    margin-left: 1.3rem;
+    text-align: center
+    ;
 }
 
 .apexcharts-gridline {
@@ -62,3 +63,21 @@
 #infectados .apexcharts-yaxis, .apexcharts-yaxis-texts-g {
   display: none !important;
 }
+
+.pontos-container {
+  background-color: #105a12;
+  border-radius: 0.62rem;
+  padding: 0.31rem 0.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  color: #1faf24;
+  gap: 0.31rem;
+}
+
+.pontos-container span {
+  color: #89bd8b;
+
+}
+

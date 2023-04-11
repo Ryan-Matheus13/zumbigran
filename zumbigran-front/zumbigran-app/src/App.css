@@ -72,7 +72,7 @@ html::-webkit-scrollbar {
 
 .error-message {
   color: #f93854;
-  font-size: 0.90rem;
+  font-size: 0.9rem;
   margin-bottom: 0.93rem;
   width: 100%;
   text-align: center;
@@ -84,4 +84,29 @@ html::-webkit-scrollbar {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.apexcharts-legend-text,
+.MuiDataGrid-cellContent,
+.MuiDataGrid-columnHeaderTitle,
+.MuiTablePagination-selectLabel,
+.MuiSelect-select,
+.MuiTablePagination-displayedRows {
+  color: #eeeeee !important;
+}
+
+.MuiSvgIcon-root {
+  fill: #7e7e75 !important;
+}
+
+.css-1usso8h-MuiDataGrid-root .MuiDataGrid-row div {
+  border-bottom: none !important;
+}
+
+.css-1usso8h-MuiDataGrid-root {
+  border: none !important;
+}
+
+.css-1usso8h-MuiDataGrid-root::-webkit-scrollbar-track {
+  background-color: transparent;
 }
